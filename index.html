@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="theme-color" content="#000000"/>
+  <meta name="description" content="Ahmad Nawaz - Professional Web Developer & Designer specializing in WordPress, eCommerce, and custom web applications. Creator of Fryzee and PlayGamio platforms. Ahmad web developer, Ahmad designer, Ahmad WordPress expert, Ahmad front-end developer."/>
+  <meta name="keywords" content="Ahmad, Nawaz, Ahmad Nawaz, Ahmad web developer, Ahmad designer, Ahmad developer, Ahmad WordPress, Ahmad front-end, Ahmad back-end, Ahmad portfolio, Ahmad PlayGamio, Ahmad Fryzee, Web Developer, Web Designer, WordPress Developer, PHP Developer, JavaScript Developer, Fryzee, PlayGamio, Lexus Developers, Portfolio"/>
+  <meta name="author" content="Ahmad Nawaz"/>
+  <meta property="og:title" content="Ahmad Nawaz | Professional Web Developer & Designer Portfolio"/>
+  <meta property="og:description" content="Professional portfolio of Ahmad Nawaz - Web Developer & Designer specializing in WordPress, eCommerce, and custom web applications. Creator of Fryzee and PlayGamio."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://ahmadnawaz.dev"/>
+  <meta property="og:image" content="https://ahmadnawaz.dev/images/social-preview.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:creator" content="@ahmadnawazdev"/>
+  
+  <meta property="og:title" content="Ahmad Nawaz | Web Developer & Designer">
+<meta property="og:description" content="Professional portfolio of Ahmad Nawaz - Web Developer & Designer specializing in WordPress, eCommerce, and custom web applications.">
+<meta property="og:image" content="https://playgamio.io/ahmad/Ahmad.jpg">
+<meta property="og:url" content="https://playgamio.io/ahmad">
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="Ahmad">
+<meta property="profile:last_name" content="Nawaz">
+  
+  <link rel="canonical" href="https://playgamio.io/ahmad"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Ahmad Nawaz | Professional Web Developer & Designer - Creator of Fryzee & PlayGamio</title>
+</head>
+<style>    :root {
+      --primary-color: #4285f4;
+      --secondary-color: #34a853;
+      --accent-color: #ea4335;
+      --dark-bg: #121212;
+      --darker-bg: #0a0a0a;
+      --dark-surface: #1e1e1e;
+      --text-primary: #ffffff;
+      --text-secondary: #b3b3b3;
+      --animation-speed: 0.5s;
+    }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(18, 18, 18, 0.95);
+  padding: 1rem 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.logo {
+  font-size: 2rem;
+      font-weight: bold;
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-decoration: none;
+      transition: all 0.3s ease;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+/* Section Styles */
+.section {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 6rem 0 4rem;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--primary-color), #00bcd4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark-bg {
+  background-color: var(--dark-surface);
+}
+
+/* Hero Section */
+#hero {
+  display: flex;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+  }
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(108, 99, 255, 0.3);
+  animation: float 6s ease-in-out infinite;
+}
+
+.profile-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* About Section */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+.about-card {
+  background-color: var(--dark-surface);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(108, 99, 255, 0.2);
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.services-list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.services-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.check-mark {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  position: relative;
+  height: 220px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+  perspective: 1000px;
+}
+
+.skill-card:hover {
+  transform: rotateY(180deg);
+}
+
+.skill-card-front,
+.skill-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.skill-card-front {
+  background-color: var(--dark-surface);
+}
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.skill-card-back {
+  transform: rotateY(180deg);
+  color: white;
+  text-align: center;
+}
+
+.html-gradient {
+  background: linear-gradient(135deg, #0f5a01, #3f8803d4);
+}
+
+.css-gradient {
+  background: linear-gradient(135deg, #08238f, #2965f1);
+}
+
+.js-gradient {
+  background: linear-gradient(135deg, #882525, #f7176da5);
+  color: white;
+}
+
+.php-gradient {
+  background: linear-gradient(135deg, #777bb3, #8892bf);
+}
+
+.db-gradient {
+  background: linear-gradient(135deg, #00758f, #f29111);
+}
+
+.wp-gradient {
+  background: linear-gradient(135deg, #21759b, #464646);
+}
+
+/* Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(108, 99, 255, 0.2);
+}
+
+.project-image {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.1);
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  padding: 2rem;
+  transform: translateY(70%);
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-overlay {
+  transform: translateY(0);
+}
+
+.project-overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-overlay p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-tags span {
+  background-color: rgba(108, 99, 255, 0.2);
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+
+/* Contact Section */
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: var(--dark-surface);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--dark-bg);
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(108, 99, 255, 0.3);
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.text-link {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.text-link:hover {
+  color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-bg);
+  border-top: 1px solid #333;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+/* Background Elements */
+.grid-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.stars, .stars2, .stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.stars {
+  background-image: radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+                    radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+                    radial-gradient(1px 1px at 90px 40px, #fff, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.2;
+  animation: twinkle 5s infinite;
+}
+
+.stars2 {
+  background-image: radial-gradient(1px 1px at 100px 150px, #fff, rgba(0,0,0,0)),
+                    radial-gradient(1px 1px at 200px 220px, #fff, rgba(0,0,0,0)),
+                    radial-gradient(2px 2px at 300px 300px, #fff, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  opacity: 0.2;
+  animation: twinkle 7s infinite;
+}
+
+.stars3 {
+  background-image: radial-gradient(1px 1px at 50px 80px, #fff, rgba(0,0,0,0)),
+                    radial-gradient(1px 1px at 150px 120px, #fff, rgba(0,0,0,0)),
+                    radial-gradient(1px 1px at 250px 180px, #fff, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  opacity: 0.2;
+  animation: twinkle 9s infinite;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.2; }
+}
+
+.animated-bg-element {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.bg-1 {
+  background-color: var(--primary-color);
+  width: 300px;
+  height: 300px;
+  top: 20%;
+  left: -150px;
+  animation: pulse 8s infinite;
+}
+
+.bg-2 {
+  background-color: var(--secondary-color);
+  width: 400px;
+  height: 400px;
+  bottom: 10%;
+  right: -200px;
+  animation: pulse 12s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .profile-img-container {
+    width: 250px;
+    height: 250px;
+  }
+  
+  nav ul {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  
+  .profile-img-container {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .section {
+    padding: 5rem 0 3rem;
+  }
+}
+
+
+    /* Updated Footer Contact Info */
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+      transition: color 0.3s ease;
+    }
+    
+    .contact-item:hover {
+      color: var(--primary-color);
+    }
+    
+    .contact-icon {
+      font-size: 1.2rem;
+    }
+ </style>
+<body>
+  <!-- Background Elements -->
+  <div class="grid-bg">
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+  </div>
+  <div class="animated-bg-element bg-1"></div>
+  <div class="animated-bg-element bg-2"></div>
+
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Ahmad Nawaz</a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+   <!-- Hero Section -->
+  <section id="hero" class="section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text animate fade-in-up">
+          <h1>Hi, I'm <span class="gradient-text">Ahmad Nawaz</span></h1>
+          <p class="subtitle">Professional <span class="highlight">Web Developer</span> & <span class="highlight">Designer</span> specializing in creating high-performance websites and web applications.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <a href="#projects" class="text-link"> <strong>View My Work </strong></a>
+          </div>
+        </div>
+        <div class="hero-image animate fade-in-up animate-delay-1">
+          <div class="profile-img-container">
+            <img src="Ahmad.jpg" alt="Ahmad Nawaz - Web Developer & Designer" width="300" height="300">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="about-content">
+        <div class="about-card">
+          <h3 class="gradient-text">My Journey</h3>
+          <p>
+            I am currently pursuing a Bachelor's degree in Computer Science, and alongside my studies, 
+            I have developed strong professional skills in website development and design.
+          </p>
+          <p>
+            With a solid foundation in both front-end and back-end technologies, I bring creativity, 
+            attention to detail, and a commitment to quality in every project I undertake.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3 class="gradient-text">What I Do</h3>
+          <p>
+            Whether you need a brand-new website or improvements to an existing one, I am dedicated to 
+            providing efficient, reliable, and professional solutions to help your business succeed.
+          </p>
+          <ul class="services-list">
+            <li><span class="check-mark">✓</span> Custom Website Development</li>
+            <li><span class="check-mark">✓</span> Responsive Web Design</li>
+            <li><span class="check-mark">✓</span> WordPress Development</li>
+            <li><span class="check-mark">✓</span> Database Integration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section dark-bg">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <div class="skills-grid">
+        <!-- HTML Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="html.png" alt="HTML" class="skill-icon">
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-card-back html-gradient">
+            <p>Proficient in creating structured, semantic HTML5 markup for modern web applications.</p>
+          </div>
+        </div>
+        
+        <!-- CSS Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="css.png" alt="CSS" class="skill-icon">
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-card-back css-gradient">
+            <p>Expert in CSS3 styling, animations, and responsive design techniques.</p>
+          </div>
+        </div>
+        
+        <!-- JavaScript Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="js.png" alt="JavaScript" class="skill-icon">
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card-back js-gradient">
+            <p>Strong JavaScript skills for creating interactive, dynamic web experiences.</p>
+          </div>
+        </div>
+        
+        <!-- PHP Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="php.png" alt="PHP" class="skill-icon">
+            <h3>PHP</h3>
+          </div>
+          <div class="skill-card-back php-gradient">
+            <p>Experienced in server-side programming with PHP for dynamic web applications.</p>
+          </div>
+        </div>
+        
+        <!-- Database Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="database.png" alt="Database" class="skill-icon">
+            <h3>Database</h3>
+          </div>
+          <div class="skill-card-back db-gradient">
+            <p>Skilled in database design, management, and integration with web applications.</p>
+          </div>
+        </div>
+        
+        <!-- WordPress Skill -->
+        <div class="skill-card">
+          <div class="skill-card-front">
+            <img src="wordpress.png" alt="WordPress" class="skill-icon">
+            <h3>WordPress</h3>
+          </div>
+          <div class="skill-card-back wp-gradient">
+            <p>Expert in utilizing wordpress themes to build responsive designs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      <div class="projects-grid">
+        <!-- Fryzee Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="fryzee.png" alt="Fryzee">
+            <div class="project-overlay">
+              <h3>Fryzee</h3>
+              <p>A restaurant's showcase website, offering various fast food items.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+              </div>
+              <a href="https://fryzee.com" target="_blank" class="btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PlayGamio Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="playgamio.png" alt="PlayGamio">
+            <div class="project-overlay">
+              <h3>PlayGamio</h3>
+              <p>An interactive gaming platform with a vibrant design, offering various game categories and user engagement features.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>PHP</span>
+              </div>
+              <a href="https://playgamio.io" target="_blank" class="btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Lexus Developers Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="lexusdevelopers.png" alt="Lexus Developers">
+            <div class="project-overlay">
+              <h3>Lexus Developers</h3>
+              <p>A professional software development company website showcasing services, and portfolio, in web and app development.</p>
+              <div class="project-tags">
+                <span>WordPress</span>
+                <span>PHP</span>
+                <span>JavaScript</span>
+                <span>Database</span>
+              </div>
+              <a href="https://lexusdevelopers.com" target="_blank" class="btn-primary">Visit Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section dark-bg">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your.email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+ <footer>
+    <div class="container">
+      <div class="contact-info">
+        <a href="mailto:ahmadnawaz21002100@gmail.com" class="contact-item">
+          <i class="fas fa-envelope contact-icon"></i>
+          <span>ahmadnawaz21002100@gmail.com</span>
+        </a>
+        <a href="tel:+923379912946" class="contact-item">
+          <i class="fas fa-phone contact-icon"></i>
+          <span>+92 337 9912946</span>
+        </a>
+      </div>
+      <p>© 2025 Ahmad Nawaz. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github social-icon"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram social-icon"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter social-icon"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin social-icon"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script> 
+    // Simple JavaScript for the portfolio website
+document.addEventListener('DOMContentLoaded', function() {
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 10) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Form submission handling
+  const contactForm = document.querySelector('.contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nameInput = document.getElementById('name');
+      const emailInput = document.getElementById('email');
+      const messageInput = document.getElementById('message');
+      
+      // Simple validation
+      if (!nameInput.value || !emailInput.value || !messageInput.value) {
+        alert('Please fill in all fields');
+        return;
+      }
+      
+      // Simulate form submission
+      alert('Thank you for your message! I will get back to you soon.');
+      contactForm.reset();
+    });
+  }
+
+  // Add animation classes to elements when they come into view
+  const animateOnScroll = function() {
+    const elements = document.querySelectorAll('.about-card, .project-card, .section-title');
+    
+    elements.forEach(element => {
+      const elementPosition = element.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      
+      if (elementPosition < windowHeight - 100) {
+        element.classList.add('visible');
+      }
+    });
+  };
+
+  // Run on scroll
+  window.addEventListener('scroll', animateOnScroll);
+  
+  // Run once on load
+  animateOnScroll();
+});
+
+
+// Updated JavaScript for animations
+    document.addEventListener('DOMContentLoaded', function() {
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Navbar scroll effect
+      const navbar = document.querySelector('.navbar');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 10) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+
+      // Form submission handling
+      const contactForm = document.querySelector('.contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const nameInput = document.getElementById('name');
+          const emailInput = document.getElementById('email');
+          const messageInput = document.getElementById('message');
+          
+          // Simple validation
+          if (!nameInput.value || !emailInput.value || !messageInput.value) {
+            alert('Please fill in all fields');
+            return;
+          }
+          
+          // Simulate form submission
+          alert('Thank you for your message! I will get back to you soon.');
+          contactForm.reset();
+        });
+      }
+
+      // Enhanced animation function
+      const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.about-card, .project-card, .section-title');
+        const windowHeight = window.innerHeight;
+        const triggerBottom = windowHeight * 0.85;
+        
+        elements.forEach(element => {
+          const elementTop = element.getBoundingClientRect().top;
+          
+          if (elementTop < triggerBottom) {
+            element.classList.add('visible');
+          }
+        });
+      };
+
+      // Initialize animations
+      window.addEventListener('scroll', animateOnScroll);
+      animateOnScroll(); // Run once on load
+      
+      // Add hover effect to project images
+      const projectImages = document.querySelectorAll('.project-image img');
+      projectImages.forEach(img => {
+        img.addEventListener('mouseenter', () => {
+          img.style.transform = 'scale(1.1) rotate(1deg)';
+        });
+        img.addEventListener('mouseleave', () => {
+          img.style.transform = 'scale(1.1)';
+        });
+      });
+    });
+
+  </script>
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ahmad Nawaz",
+  "url": "https://playgamio.io/ahmad",
+  "image": "https://playgamio.io/ahmad/Ahmad.jpg",
+  "description": "Professional Web Developer & Designer specializing in WordPress, eCommerce, and custom web applications.
+  
+  ]
+}
+</script>
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
